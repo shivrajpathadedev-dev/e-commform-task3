@@ -68,7 +68,7 @@
 
              <div class="form-group">
               <label for="ReviewDescription">Review Description</label>
-              <input type="text" class="form-control" name="ReviewDescription" minlength="5" ngModel required
+              <input type="text" class="form-control" name="ReviewDescription" minlength="30" ngModel required
                 #ReviewDescription="ngModel">
               <strong class="text-danger" *ngIf="ReviewDescription.touched&&ReviewDescription.hasError('required')">
                 Review Description is required!.
